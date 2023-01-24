@@ -1,0 +1,16 @@
+spring:
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/book_db
+    password: admin
+  banner:
+    location: banner.txt
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: 'true'
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
