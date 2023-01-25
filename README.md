@@ -1,5 +1,5 @@
-# Spring Boot, Spring Security, JWT, JPA, MySQL Rest API
-Restful CRUD API where you can create an account, create different Bookshelfs and add created Books to these Bookshelfs using Spring Boot, MySQl, JPA and Hibernate. Spring Security ensures that requests need to authorized with JSON Web Tokens that are generated for Users when initially signed up and later when signed in using the correct email and password. ADMIN accounts can access any endpoint and USER accounts can only access endpoints relating to their specific resources.
+# Spring Boot, Spring Security, JWT, JPA, MySQL REST API
+Restful CRUD API where you can create an account, create different Bookshelfs and add created Books to these Bookshelfs using Spring Boot, MySQl, JPA and Hibernate. Spring Security ensures that requests need to be authorized with JSON Web Tokens that are generated for Users when initially signed up and later when signed in using the correct email and password. ADMIN accounts can access any endpoint and USER accounts can only access endpoints relating to their specific resources.
 
 ![ER Diagram](https://user-images.githubusercontent.com/89137794/214269079-aa6ee6a7-a0d5-4187-ba71-db9e96f678e1.png)
 
